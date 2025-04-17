@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Колесо фортуны</title>
+    <link rel="stylesheet" href="./style/style.css">
+    <script defer src="./js/index.js"></script>
+
+
+</head>
+<body>
+
+    <div class="container">
+        <h1> list-rarities </h1>
+        <div class="wheel-container">
+            <div id="marker"></div>
+            <div class="wheel" id="wheel">
+
+                <div style="--i: 1" class="card" data-prize="Обычный нож">
+                    <div class="card-color" style="background-color: gray; box-shadow: 0 0 15px gray;">
+                </div>
+                    <img src="./img/card-1.png" alt="">
+                    <div class="card-title">common</div>
+                    <div class="data-prize">Обычный нож</div>
+                </div>   
+
+                <div style="--i: 2" class="card" data-prize="ядовитый нож">
+                    <div class="card-color" style="background-color: rgb(0, 255, 0); box-shadow: 0 0 15px rgb(0, 255, 0); ">
+                       
+                    </div>
+                    <img src="./img/card-2.png" alt="">
+                    <div class="card-title">uncommon</div>
+                    <div class="data-prize">ядовитый нож</div>
+                </div>
+
+                <div style="--i: 3" class="card" data-prize="океанический нож">
+                    <div class="card-color" style="background-color: rgb(0, 183, 255); box-shadow: 0 0 15px rgb(0, 183, 255);"></div>
+                        <img src="./img/card-3.png" alt="">
+                    <div class="card-title">rare</div>
+                        <div class="data-prize">океанический нож</div>
+    
+                    </div>
+
+                <div style="--i: 4" class="card" data-prize="галактический нож">
+                    <div class="card-color" style="background-color: purple; box-shadow: 0 0 15px purple;"></div>
+                    <img src="./img/card-4.png" alt="">
+                        <div class="card-title">epic</div>
+                        <div class="data-prize">галактический нож</div>
+                </div>
+
+                <div style="--i: 5" class="card" data-prize="золотой нож">
+                    <div class="card-color" style="background-color: gold; box-shadow: 0 0 15px gold;"></div>
+                         <img src="./img/card-5.png" alt="">
+                        <div class="card-title">legendary</div>
+                        <div class="data-prize">золотой нож</div>
+                </div>
+
+                <div style="--i: 6" class="card" data-prize="стеклянный нож">
+                    <div class="card-color" style="background-color: rgb(255, 255, 255); box-shadow: 0 0 15px rgb(255, 255, 255);"></div>
+                    <img src="./img/card-6.png" alt="">
+                        <div class="card-title">unobtainable</div>
+                        <div class="data-prize">стеклянный нож</div>
+                    </div>
+                    <div style="--i: 7" class="card" data-prize="стеклянный нож">
+                        <div class="card-color" style="background-color: rgb(255, 255, 255); box-shadow: 0 0 15px rgb(255, 255, 255);"></div>
+                        <img src="./img/card--7.png" alt="">
+                            <div class="card-title">unobtainable</div>
+                            <div class="data-prize">стеклянный нож</div>
+                        </div>
+                        <div style="--i: 8" class="card" data-prize="стеклянный нож">
+                            <div class="card-color" style="background-color: rgb(255, 255, 255); box-shadow: 0 0 15px rgb(255, 255, 255);"></div>
+                            <img src="./img/card-8.png" alt="">
+                                <div class="card-title">unobtainable</div>
+                                <div class="data-prize">стеклянный нож</div>
+                            </div>
+                </div>
+               
+        </div>
+        <button class="spin-btn" id="spin-btn">SPIN</button>
+
+        <div class="prize-display">
+           <img src="" id="prize-item" alt="">
+         </div>
+
+</body>
+</html>
