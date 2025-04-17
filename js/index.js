@@ -6,14 +6,14 @@ let spinAudio = new Audio('./sound/spin.mp3');
 let isSpinning = false;
 
 let prizes = [
-    '/img/card-1.png',
-    '/img/card-2.png',
-    '/img/card-3.png',
-    '/img/card-4.png',
-    '/img/card-5.png',
-    '/img/card-6.png',
-    '/img/card-7.png',
-    '/img/card-8.png',
+    './img/card-1.png',
+    './img/card-2.png',
+    './img/card-3.png',
+    './img/card-4.png',
+    './img/card-5.png',
+    './img/card-6.png',
+    './img/card-7.png',
+    './img/card-8.png',
 ]
 
 prizes.reverse();
